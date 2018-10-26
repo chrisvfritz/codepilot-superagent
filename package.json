@@ -53,10 +53,6 @@
     "should-http": "^0.1.1",
     "zuul": "^3.12.0"
   },
-  "browser": {
-    "./lib/node/index.js": "./lib/client.js",
-    "./test/support/server.js": "./test/support/blank.js"
-  },
   "component": {
     "scripts": {
       "superagent": "lib/client.js"
